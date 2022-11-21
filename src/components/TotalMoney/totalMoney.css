@@ -1,0 +1,27 @@
+.div-total-money {
+  display: flex;
+  align-items: baseline;
+  text-align: start;
+  padding: 20px 24px;
+  border: 1px solid var(--grey-2);
+  justify-content: space-between;
+  width: 100%;
+}
+
+.div-total-money > div > h3 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
+  color: var(--grey-4);
+}
+
+.div-total-money > div:nth-child(1) > p {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-3);
+  color: var(--grey-5);
+}
+
+.value {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
+  color: var(--color-primary);
+}

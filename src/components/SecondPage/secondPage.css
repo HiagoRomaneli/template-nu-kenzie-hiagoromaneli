@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+.div-main {
+  width: 100vw;
+  margin-top: 40px;
+  display: flex;
+  align-items: baseline;
+  gap: 99px;
+  justify-content: center;
+}
+
+.section-left {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-right {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}

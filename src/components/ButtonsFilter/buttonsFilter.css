@@ -1,0 +1,29 @@
+.div-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-buttons-filter {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-filter {
+  padding: 0 15px;
+  height: 40px;
+  border: none;
+  background-color: var(--grey-2);
+  border-radius: var(--border-radius-1);
+}
+
+.btn-filter:hover {
+  background-color: var(--color-primary-2);
+  color: var(--grey-1);
+  cursor: pointer;
+}
+
+.btn-filter:focus {
+  background-color: var(--color-primary-2);
+  color: var(--grey-1);
+}

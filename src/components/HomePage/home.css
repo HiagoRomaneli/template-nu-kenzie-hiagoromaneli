@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,var(--font-weight-3);0,500;0,600;0,800;1,200;1,300;1,var(--font-weight-3);1,500;1,600;1,700;1,800&display=swap");
+
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  font-family: "Nunito", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--grey-4);
+}
+
+.section-home-left > h2 {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-1);
+  line-height: 48px;
+  color: var(--white);
+}
+
+.section-home-left > p {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-3);
+  color: var(--white);
+}
+
+.section-home-left {
+  width: 347px;
+  height: 274px;
+}
+
+.div-title {
+  /* background-image: url(../../img/icon2.png); */
+  width: 123px;
+  height: 20px;
+}
+
+.section-home-left > button {
+  border: none;
+  border-radius: var(--border-radius-1);
+  color: var(--white);
+  background-color: var(--color-primary);
+  width: 241px;
+  height: 48px;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-3);
+}
+
+.section-home-left > button:hover {
+  background-color: var(--color-primary-2);
+  color: var(--grey-1);
+  cursor: pointer;
+}
+.img-home-page {
+  /* background-image: url(../../img/illustration.svg); */
+  width: 593px;
+  height: 593px;
+}

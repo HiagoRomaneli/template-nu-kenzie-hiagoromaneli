@@ -1,0 +1,48 @@
+.div-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--grey-1);
+  border-radius: 4px;
+  padding: 8px 14px;
+}
+
+.div-card div:nth-child(1) > h3 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
+  color: var(--grey-4);
+}
+
+.div-card div:nth-child(1) > p {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-3);
+  color: var(--grey-5);
+}
+
+.div-card div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.div-card div:nth-child(2) > p {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-3);
+  color: var(--grey-4);
+}
+
+.div-card div:nth-child(2) > button {
+  width: 22px;
+  height: 22px;
+  /* background-image: url(../../img/ButtonTrash.png); */
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.div-card div:nth-child(2) > button:hover {
+  /* background-image: url(../../img/Property\ 1=Hover.png); */
+  cursor: pointer;
+}
