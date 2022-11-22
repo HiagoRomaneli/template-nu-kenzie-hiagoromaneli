@@ -6,12 +6,12 @@
 
 .div-buttons-filter {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .btn-filter {
-  padding: 0 15px;
-  height: 40px;
+  padding: 0 0.9375rem;
+  height: 2.5rem;
   border: none;
   background-color: var(--grey-2);
   border-radius: var(--border-radius-1);

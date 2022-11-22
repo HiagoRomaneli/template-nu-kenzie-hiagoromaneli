@@ -1,6 +1,6 @@
 header {
   width: 100vw;
-  height: 88px;
+  height: 5.5rem;
   box-shadow: 0px 9px 11px 1px var(--grey-2);
 }
 
@@ -8,18 +8,18 @@ header > div {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 .title {
-  width: 123px;
-  height: 20px;
+  width: 7.6875rem;
+  height: 1.25rem;
   background-image: url(../../img/iconkenzie.png);
 }
 
 .btn-header {
-  width: 64px;
-  height: 40px;
+  width: 4rem;
+  height: 2.5rem;
   border: none;
   background-color: var(--grey-2);
   border-radius: var(--border-radius-1);

@@ -20,6 +20,16 @@ export const SecondPage = ({ setPages }) => {
     setListTransactions(filterTransactions);
   }
 
+  const [filter, setFilter] = useState("todos");
+
+  const fiterListTransactions = listTransactions.filter((transaction) => {
+    if (filter === "todos") {
+      return true;
+    } else {
+      return transaction.type === filter;
+    }
+  });
+
   return (
     <div className="App">
       <div className="App-header">
@@ -33,12 +43,9 @@ export const SecondPage = ({ setPages }) => {
             <TotalMoney listTransactions={listTransactions} />
           </section>
           <section className="section-right">
-            <ButtonsFilter
-              listTransactions={listTransactions}
-              setListTransactions={setListTransactions}
-            />
+            <ButtonsFilter setFilter={setFilter} />
             <List
-              listTransactions={listTransactions}
+              listTransactions={fiterListTransactions}
               deleteTransaction={deleteTransaction}
             />
           </section>

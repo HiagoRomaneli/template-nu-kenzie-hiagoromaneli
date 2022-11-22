@@ -4,7 +4,8 @@
   justify-content: space-between;
   background-color: var(--grey-1);
   border-radius: 4px;
-  padding: 8px 14px;
+  padding: 0.5rem 0.875rem;
+  width: 100%;
 }
 
 .div-card div:nth-child(1) > h3 {
@@ -22,7 +23,7 @@
 .div-card div:nth-child(2) {
   display: flex;
   align-items: center;
-  gap: 27px;
+  gap: 1.6875rem;
 }
 
 .div-card div:nth-child(2) > p {
@@ -32,8 +33,8 @@
 }
 
 .div-card div:nth-child(2) > button {
-  width: 22px;
-  height: 22px;
+  width: 1.375rem;
+  height: 1.375rem;
   background-image: url(../../img/ButtonTrash.png);
   background-repeat: no-repeat;
   border: none;
@@ -43,6 +44,6 @@
 }
 
 .div-card div:nth-child(2) > button:hover {
-  background-image: url(../../img/Property\ 1=Hover.png);
+  background-image: url(../../img/ButtonTrashHover.png);
   cursor: pointer;
 }

@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 3rem;
   font-family: "Nunito", sans-serif;
   width: 100vw;
   height: 100vh;
@@ -14,7 +14,7 @@
 .section-home-left > h2 {
   font-size: var(--font-size-1);
   font-weight: var(--font-weight-1);
-  line-height: 48px;
+  line-height: 3rem;
   color: var(--white);
 }
 
@@ -25,14 +25,14 @@
 }
 
 .section-home-left {
-  width: 347px;
-  height: 274px;
+  width: 21.6875rem;
+  height: 17.125rem;
 }
 
 .div-title {
   background-image: url(../../img/icon2.png);
-  width: 123px;
-  height: 20px;
+  width: 7.6875rem;
+  height: 1.25rem;
 }
 
 .section-home-left > button {
@@ -40,8 +40,8 @@
   border-radius: var(--border-radius-1);
   color: var(--white);
   background-color: var(--color-primary);
-  width: 241px;
-  height: 48px;
+  width: 15.0625rem;
+  height: 3rem;
   font-size: var(--font-size-5);
   font-weight: var(--font-weight-3);
 }
@@ -53,6 +53,6 @@
 }
 .img-home-page {
   background-image: url(../../img/illustration.svg);
-  width: 593px;
-  height: 593px;
+  width: 37.0625rem;
+  height: 37.0625rem;
 }

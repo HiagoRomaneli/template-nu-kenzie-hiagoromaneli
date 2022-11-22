@@ -1,20 +1,32 @@
 form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  padding: 38px 25px;
+  gap: 1.125rem;
+  padding: 2.375rem 1.5625rem;
   text-align: start;
   border: 1px solid var(--grey-2);
   width: 100%;
 }
 
+form > input:nth-child(1) {
+  width: 100%;
+}
+
+.div-form > div:nth-child(1) > input {
+  width: 50%;
+}
+
+.div-form > div:nth-child(2) > input {
+  width: 30%;
+}
+
 input,
 select {
-  height: 53px;
-  border: 2px solid var(--grey-1);
+  height: 3.3125rem;
+  border: 0.125rem solid var(--grey-1);
   border-radius: var(--border-radius-1);
   background-color: var(--grey-1);
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 
 .div-form {
@@ -38,7 +50,7 @@ form > button {
   border-radius: var(--border-radius-1);
   color: var(--white);
   background-color: var(--color-primary);
-  height: 48px;
+  height: 3rem;
   font-size: var(--font-size-5);
   font-weight: var(--font-weight-3);
 }

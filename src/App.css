@@ -17,12 +17,12 @@ body {
 
   --white: #ffffff;
 
-  --font-size-1: 38px;
-  --font-size-2: 28px;
-  --font-size-3: 24px;
-  --font-size-4: 20px;
-  --font-size-5: 16px;
-  --font-size-6: 12px;
+  --font-size-1: 2.375rem; /*38px*/
+  --font-size-2: 1.75rem; /*28px*/
+  --font-size-3: 1.5rem; /*24px*/
+  --font-size-4: 1.25rem; /*20px*/
+  --font-size-5: 1rem; /*16px*/
+  --font-size-6: 0.75rem; /*12px*/
 
   --font-weight-1: 800;
   --font-weight-2: 700;
