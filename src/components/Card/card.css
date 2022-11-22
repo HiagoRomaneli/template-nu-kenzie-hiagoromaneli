@@ -8,6 +8,10 @@
   width: 95%;
 }
 
+.entry-transaction {
+  border-left: 3px solid var(--color-secondary);
+}
+
 .div-card div:nth-child(1) > h3 {
   font-size: var(--font-size-5);
   font-weight: var(--font-weight-2);
