@@ -7,11 +7,19 @@ export const Form = ({ listTransactions, setListTransactions }) => {
   const [newType, setNewType] = useState("entrada");
 
   const addNewTransaction = () => {
-    if (newDescription !== "" && newValue !== "") {
+    if (newDescription !== "" && newValue !== "" && newType === "entrada") {
       const newData = {
         description: newDescription,
         type: newType,
         value: Number(newValue),
+      };
+
+      setListTransactions([...listTransactions, newData]);
+    } else {
+      const newData = {
+        description: newDescription,
+        type: newType,
+        value: Number(`-${newValue}`),
       };
 
       setListTransactions([...listTransactions, newData]);

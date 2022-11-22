@@ -1,31 +1,62 @@
-@media (max-width: 880px) {
+@media (max-width: 768px) {
   .home-main {
     flex-direction: column;
-    padding-top: 50px;
+    padding: 60px 0;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 425px) {
+  .section-home-right {
+    display: none;
+  }
+
+  .home-main {
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-home-left {
+    width: 15.6875rem;
+  }
+}
+
+@media (max-width: 1024px) {
   .div-main {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
 
+  form {
+    width: 90%;
+  }
+
+  .div-total-money {
+    width: 90%;
+  }
+
+  .div-filters {
+    width: 100%;
+  }
+
+  .list {
+    width: 100%;
+  }
+
   .section-left {
-    width: 45%;
+    width: 65%;
+    align-items: center;
   }
 
   .section-right {
-    width: 45%;
+    width: 65%;
   }
 }
 
-@media (max-width: 660px) {
-  .div-main {
-    margin-left: -40px;
-  }
-
+@media (max-width: 768px) {
   .section-left {
     width: 80%;
   }
@@ -35,7 +66,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 425px) {
   .div-filters {
     flex-direction: column;
     margin-bottom: 1.25rem;

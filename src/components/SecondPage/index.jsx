@@ -32,24 +32,22 @@ export const SecondPage = ({ setPages }) => {
 
   return (
     <div className="App">
-      <div className="App-header">
-        <Header setPages={setPages} />
-        <div className="div-main">
-          <section className="section-left">
-            <Form
-              listTransactions={listTransactions}
-              setListTransactions={setListTransactions}
-            />
-            <TotalMoney listTransactions={listTransactions} />
-          </section>
-          <section className="section-right">
-            <ButtonsFilter setFilter={setFilter} />
-            <List
-              listTransactions={fiterListTransactions}
-              deleteTransaction={deleteTransaction}
-            />
-          </section>
-        </div>
+      <Header setPages={setPages} />
+      <div className="div-main">
+        <section className="section-left">
+          <Form
+            listTransactions={listTransactions}
+            setListTransactions={setListTransactions}
+          />
+          <TotalMoney listTransactions={listTransactions} />
+        </section>
+        <section className="section-right">
+          <ButtonsFilter setFilter={setFilter} />
+          <List
+            listTransactions={fiterListTransactions}
+            deleteTransaction={deleteTransaction}
+          />
+        </section>
       </div>
     </div>
   );
