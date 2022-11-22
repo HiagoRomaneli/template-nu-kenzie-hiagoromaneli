@@ -1,5 +1,4 @@
 import "./card.css";
-import imgDelete from "../../img/ButtonTrash.png";
 
 export const Card = ({ transaction, deleteTransaction }) => {
   return (
@@ -10,9 +9,7 @@ export const Card = ({ transaction, deleteTransaction }) => {
       </div>
       <div>
         <p>R$ {transaction.value},00</p>
-        <button onClick={() => deleteTransaction(transaction)}>
-          <img src={imgDelete} alt="imagem do botao"></img>
-        </button>
+        <button onClick={() => deleteTransaction(transaction)}></button>
       </div>
     </div>
   );

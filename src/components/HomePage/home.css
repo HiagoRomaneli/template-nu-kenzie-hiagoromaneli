@@ -30,7 +30,7 @@
 }
 
 .div-title {
-  /* background-image: url(../../img/icon2.png); */
+  background-image: url(../../img/icon2.png);
   width: 123px;
   height: 20px;
 }
@@ -52,7 +52,7 @@
   cursor: pointer;
 }
 .img-home-page {
-  /* background-image: url(../../img/illustration.svg); */
+  background-image: url(../../img/illustration.svg);
   width: 593px;
   height: 593px;
 }

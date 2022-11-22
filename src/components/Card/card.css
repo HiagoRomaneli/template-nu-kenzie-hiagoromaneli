@@ -34,7 +34,7 @@
 .div-card div:nth-child(2) > button {
   width: 22px;
   height: 22px;
-  /* background-image: url(../../img/ButtonTrash.png); */
+  background-image: url(../../img/ButtonTrash.png);
   background-repeat: no-repeat;
   border: none;
   background-color: transparent;
@@ -43,6 +43,6 @@
 }
 
 .div-card div:nth-child(2) > button:hover {
-  /* background-image: url(../../img/Property\ 1=Hover.png); */
+  background-image: url(../../img/Property\ 1=Hover.png);
   cursor: pointer;
 }
