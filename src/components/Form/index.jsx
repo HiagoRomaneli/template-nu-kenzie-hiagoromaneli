@@ -53,8 +53,8 @@ export const Form = ({ listTransactions, setListTransactions }) => {
             value={newType}
             onChange={(event) => setNewType(event.target.value)}
           >
-            <option value="despesas">despesas</option>
-            <option value="entrada">entrada</option>
+            <option value="despesas">Despesas</option>
+            <option value="entrada">Entrada</option>
           </select>
         </div>
       </div>

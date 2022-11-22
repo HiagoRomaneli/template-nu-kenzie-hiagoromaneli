@@ -16,10 +16,6 @@ form > input:nth-child(1) {
   width: 50%;
 }
 
-.div-form > div:nth-child(2) > input {
-  width: 30%;
-}
-
 input,
 select {
   height: 3.3125rem;
@@ -27,6 +23,22 @@ select {
   border-radius: var(--border-radius-1);
   background-color: var(--grey-1);
   padding: 0 1rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+input[type="number"] {
+  background: url(../../img/R$.png) 90% 50% no-repeat;
+}
+
+option {
+  background-color: var(--grey-2);
+}
+
+select {
+  appearance: none;
+  background: url(../../img/ANGLE-DOWN.png) 96% 50% no-repeat;
 }
 
 .div-form {
@@ -38,6 +50,7 @@ select {
 .div-form > div {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 label {
