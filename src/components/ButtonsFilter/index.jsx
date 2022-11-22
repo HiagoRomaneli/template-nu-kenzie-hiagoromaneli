@@ -6,13 +6,13 @@ export const ButtonsFilter = ({ setFilter }) => {
       <h3>Resumo financeiro</h3>
       <div className="div-buttons-filter">
         <button className="btn-filter" onClick={() => setFilter("todos")}>
-          todos
+          Todos
         </button>
         <button className="btn-filter" onClick={() => setFilter("entrada")}>
-          entrada
+          Entrada
         </button>
         <button className="btn-filter" onClick={() => setFilter("despesas")}>
-          despesas
+          Despesas
         </button>
       </div>
     </div>
